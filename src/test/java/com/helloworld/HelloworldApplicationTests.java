@@ -14,4 +14,17 @@ class HelloworldApplicationTests {
 		assertEquals("Junit is working fine",str);
 	}
 
+	@Test
+	public void test_deepa() {
+		String firstname = "Deepa";
+		String lastname = "Phuyel" ;
+		int age = 24;
+		assertEquals("Deepa", firstname  );
+		assertEquals("Phuyel", lastname);
+		assertEquals (24, age);
+
+
+
+	}
+
 }
